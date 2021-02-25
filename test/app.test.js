@@ -13,7 +13,7 @@ describe("Restful demo application test", () => {
   });
 
   it("post should response 201 correctly", async () => {
-    const user = { name: "FakeTestName", age: 22 };
+    const user = { name: "TestName", age: 22 };
     let res = await supertest(app.callback())
       .post("/user/")
       .send(user)

@@ -60,7 +60,6 @@ const deleteUser = async (ctx) => {
 const batchGetUser = async (ctx) => {
   ctx.body = ctx.query;
   const { id } = ctx.query;
-  console.log(id);
   // [
   //   "160323c3b3dc6043724dfeafe",
   //   "60323c3b3dc6043724dfeaff",
