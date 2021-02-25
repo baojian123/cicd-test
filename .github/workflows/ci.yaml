@@ -13,7 +13,7 @@
   mongodb-version: [4.2]
   steps:
     - name: Checkout Git Source
-    uses: actions/checkout@master
+      uses: actions/checkout@master
     - name: Setup Node.js
     uses: actions/setup-node@v1
   with:
